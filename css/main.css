@@ -13,10 +13,16 @@ body {
 #main {
 	background-color: #000;
 	opacity: 0.7;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "Futura", "Helvetica", sans-serif;
+	letter-spacing: 1px;
+	text-transform: lowercase;
 }
 
 .logo {
 	float: left;
+	font-family: "Futura", "Helvetica", sans-serif;
 }
 
 .navbar-header > .navbar-brand {
@@ -67,6 +73,7 @@ ul .navbar-list {
 	background-color: #222;
 	letter-spacing: 3px;
 	border-radius: 5px 15px;
+	font-family: "Futura", "Helvetica", sans-serif;
 }
 
 /* SERVICES SECTION */
@@ -78,6 +85,15 @@ ul .navbar-list {
 .services-image {
 	display: inline;
 	text-align: center;
+}
+
+.services-image > h2 {
+	font-family: "Futura", "Helvetica", sans-serif;
+}
+
+.services-image > p {
+	font-family: "Caslon", "Baskerville", serif;
+	font-size: 17px;
 }
 
 .service__image {
@@ -104,7 +120,6 @@ ul .navbar-list {
 }
 
 .project-image {
-	padding: 0px;
 	margin: 30px 0px;
 }
 
@@ -115,10 +130,16 @@ ul .navbar-list {
 
 }
 
+.testimonials-message > h3 {
+	font-family: "Helvetica", sans-serif;
+}
+
 .testimonials-message > p {
-	border: 1px dashed #555;
+	border: 2px dashed #555;
 	border-radius: 5px;
 	padding: 5px;
+	font-family: "Caslon", "Baskerville", serif;
+	font-size: 18px;
 }
 
 
@@ -139,11 +160,18 @@ ul .navbar-list {
 	padding: 0px 10px;
 }
 
+.team-image > h2 {
+	font-family: "Futura", "Helvetica", sans-serif;
+}
+
+.team-image > h4 {
+	font-family: "Heveltica", sans-serif;
+}
 
 /* HIRE-US SECTION */
 
 #hire-us {
-
+	font-family: "Futura", "Helvetica", sans-serif;
 }
 
 /* FOOTER SECTION */
@@ -158,6 +186,8 @@ ul .navbar-list {
 
 .footer-text {
 	text-align: center;
+	font-family: "Helvetica", sansserif;
+	letter-spacing: 0.5px;
 }
 
 .footer-text > p > a {
