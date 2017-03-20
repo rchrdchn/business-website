@@ -3,29 +3,43 @@
 }
 
 body {
-
+	background-color: #FFFB90;
+	height: 100%;
+  	width: 100%;
 }
 
 /* TOP SECTION */
 
 #main {
-
+	background-color: #000;
+	opacity: 0.7;
 }
 
 .logo {
-	
+	float: left;
 }
 
-.navbar {
-	
+.navbar-header > .navbar-brand {
+	font-size: 32px;
+	color: #fff;
+	padding: 15px;
 }
 
 ul .navbar-list {
 	display: inline-block;
 	padding: 5px 10px;
-	font-size: 18px;
+	font-size: 22px;
 	text-align: center;
-	float: right;
+	color: #222;
+}
+
+.nav>li>a {
+	color: #fff !important;
+	padding: 15px;
+}
+
+.nav>li>a:hover {
+	background-color: #333;
 }
 
 .top-message {
@@ -36,23 +50,52 @@ ul .navbar-list {
 
 }
 
+/* TITLES */
 
+.services-title,
+.hire-us-title,
+.projects-title,
+.testimonial-title,
+.team-title {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 60px 350px 30px 350px;
+	color: #fff;
+	padding: 10px 0px;
+	border: 2px solid #222;
+	background-color: #222;
+	letter-spacing: 3px;
+	border-radius: 5px 15px;
+}
 
 /* SERVICES SECTION */
 
-#section {
-
-}
-
-.services-title {
-
+#services {
+	
 }
 
 .services-image {
-
+	display: inline;
+	text-align: center;
 }
 
+.service__image {
+	display: block;
+	margin: 0 auto;
+}
 
+.exploration {
+	padding-bottom: 20px;
+}
+
+.graphic-design {
+	padding: 30px 0px;
+}
+
+.web-dev {
+	padding: 30px 0px;
+}
 
 /*  PROJECTS SECTION */
 
@@ -60,12 +103,10 @@ ul .navbar-list {
 
 }
 
-.projects-title {
-
+.project-image {
+	padding: 0px;
+	margin: 30px 0px;
 }
-
-
-
 
 
 /* TESTIMONIALS SECTION */
@@ -74,12 +115,29 @@ ul .navbar-list {
 
 }
 
-.testimonials-message {
-
+.testimonials-message > p {
+	border: 1px dashed #555;
+	border-radius: 5px;
+	padding: 5px;
 }
 
 
+/* TEAM SECTION */
 
+#team {
+	
+}
+
+.team-image {
+	display: inline;
+	text-align: center;
+}
+
+.team__image {
+	display: block;
+	margin: 0 auto;
+	padding: 0px 10px;
+}
 
 
 /* HIRE-US SECTION */
@@ -88,13 +146,22 @@ ul .navbar-list {
 
 }
 
-.hire-us-title {
+/* FOOTER SECTION */
 
+#footer {
+	background-color: #222;
+	color: #fff;
+	font-size: 15px;
+	margin-top: 30px;
+	padding: 10px 0px;
 }
 
+.footer-text {
+	text-align: center;
+}
 
-
-
-
+.footer-text > p > a {
+	color: #fff;
+}
 
 

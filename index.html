@@ -14,7 +14,7 @@
 	<link rel="icon" sizes="192x192" href="images/logo.png">
 
 	<!-- Mobile Chrome theme color -->
-	<meta name="theme-color" content="#FFFFFF">
+	<meta name="theme-color" content="#FFFB90">
 
 	<!-- ANIMATE CSS -->
 	<link href="css/animate.css" rel="stylesheet">
@@ -42,45 +42,61 @@
 <body>
 
 	<!-- TOP PART OF THE SITE - LET'S CALL IT MAIN -->
+	<div class="container-fluid navbar-fixed-top" id="main">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a href="#" class="navbar-brand">A to Z</a>
+	</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#services" class="navbar-list nav-right">Services</a></li>
+			<li><a href="#projects" class="navbar-list nav-right">Work</a></li>
+			<li><a href="#testimonials" class="navbar-list nav-right">Testimonials</a></li>
+			<li><a href="#team" class="navbar-list nav-right">Team</a></li>
+			<li><a href="#hire-us" class="navbar-list nav-right">Hire Us</a></li>
+		</ul>
+	</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+	</nav>
+
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12" id="main">
-				
-				
-				<nav class="navbar">
-					<ul>
-				<h2 class="logo">A to Z Studio</h2>
-						<a href="#" class="navbar-list">Home</a>
-						<a href="#services" class="navbar-list">Services</a>
-						<a href="#projects" class="navbar-list">Projects</a>
-						<a href="#testimonials" class="navbar-list">Testimonials</a>
-						<a href="#team" class="navbar-list">Team</a>
-						<a href="#hire-us" class="navbar-list">Hire Us</a>
-					</ul>
-				</nav>
-				<h1 class="top-message"></h1>
-				<img src="" class="top-image" alt="">
-
-			</div>
+			<!-- <h1 class="top-message">Hi, we are <span>A to Z Studio</span>, a creative web design and development agency.</h1> -->
+			<img src="images/development.jpg" class="top-image img-responsive" alt="">
 		</div>
 	</div>
 	
 	<!-- SERVICES SECTION - THIS SHOULD HAVE 3 IMAGES: 1 FOR RESEARCH, 1 FOR DESIGN, 1 FOR DEVELOPMENT + A PIECE OF TEXT EXPLAINING WHAT WE DO BELOW THE IMAGES -->
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12" id="services">
-				<h2 class="services-title center">Services</h2>
-				<div class="services-image">
-					<img src="">
-					<p>Web Research</p>
+		<div class="container">
+			<div class="row" id="services">
+				<h1 class="services-title center">Services</h1>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 services-image">
+					<h2>Exploration</h2>
+					<img src="images/exploration.png" class="service__image exploration img-responsive">
+					<p>We’re so fixated on understanding how people think, act and interact that we consider exploration a service in its own right. What we learn in explorations inform everything else we do.</p>
 				</div>
-				<div class="services-image">
-					<img src="">
-					<p>Web Design</p>
+				<div class="col-md-4 services-image">
+					<h2>Design</h2>
+					<img src="images/graphic-design.png" class="service__image graphic-design img-responsive">
+					<p>When we build brands, we find that liminal place where expression and interpretation, profit and aesthetics become one. We apply this toward design to create unique identificators.</p>
 				</div>
-				<div class="services-image">
-					<img src="">
-					<p>Web Development</p>
+				<div class="col-md-4 services-image">
+					<h2>Development</h2>
+					<img src="images/development.png" class="service__image web-dev img-responsive">
+					<p>We combine startling design, powerful words and singular technology to create experiences that evoke big emotions and solve big business challenges for you and your organization.</p>
 				</div>
 			</div>
 		</div>
@@ -88,61 +104,76 @@
 	
 	<!-- PROJECTS PART - THIS IS WHERE WE WILL SHOWCASE OUR TOP 6 PROJECTS. IN THE MEANTIME WE CAN HAVE IMAGES PLACEHOLDERS. PLAN IS TO HAVE THE IMAGE OF THE PROJECT AND WHEN PEOPLE HOVER IT THE TITLE OF THE PROJECT WILL SHOW WITH A BACKGROUND COLOR THAT HAS OPACITY 0.5-0.7 -->
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12" id="projects">
+		<div class="container">
+			<div class="row" id="projects">
+				<h1 class="projects-title">Our Work</h1>
+			</div>
+		</div>
 
-				<h2 class="projects-title">Projects</h2>
-				
-				<div>
-					<img src="" alt="">
-					<p>Project #1</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 project-image">
+					<img src="images/project1.jpg" class="img-responsive" alt="">
 				</div>
-				
-				<div>
-					<img src="" alt="">
-					<p>Project #2</p>
+				<div class="col-lg-4 project-image">
+					<img src="images/project2.jpg" class="img-responsive" alt="">
 				</div>
-				
-				<div>
-					<img src="" alt="">
-					<p>Project #3</p>
+				<div class="col-lg-4 project-image">
+					<img src="images/project3.jpg" class="img-responsive" alt="">
 				</div>
-				
-				<div>
-					<img src="" alt="">
-					<p>Project #4</p>
-				</div>
-				
-				<div>
-					<img src="" alt="">
-					<p>Project #5</p>
-				</div>
-				
-				<div>
-					<img src="" alt="">
-					<p>Project #6</p>
-				</div>
-
 			</div>
 		</div>
 	</div>
 	
 	<!-- TESTIMONIALS SECTION - LET'S HAVE 3 TESTIMONIALS IN BOXES AND THE NAME OF THE PERSON AND TITLE BELOW OR ON TOP OF IT TO MAKE IT MORE RELEVANT TO VISITORS -->
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12" id="testimonials">
-				<h2 class="testimonial-title center">Testimonials</h2>
-				<div class="testimonials-message">
+		<div class="container">
+			<div class="row" id="testimonials">
+				<h1 class="testimonial-title">Testimonials</h1>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 testimonials-message">
+					<h3>Ryan Bolt, The Tool Store</h3>
+					<p>For the first time in a long time our website is truly mobile responsive. It's truly remarkable how quickly things have changed for our business in just a week.</p>
+				</div>
+				<div class="col-md-4 testimonials-message">
+					<h3>Katie Miller, Green Consulting</h3>
+					<p>Our company has grown immensely and our new website reflects our organization vision, mission and what we want to deliver to our loyal customers.</p>
+				</div>
+				<div class="col-md-4 testimonials-message">
+					<h3>John Carmichael, Moxley Rolls</h3>
+					<p>We are organized and free to get things done. We used to wonder what everyone was doing. Now we move forward gracefully.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-					<h3></h3>
+	<!-- TEAM MEMBERS -->
+
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row" id="team">
+				<h1 class="team-title">Team</h1>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 team-image">
+					<img src="images/richard.jpeg" class="team__image richard-chan img-responsive img-circle">
+					<h2>Richard</h2>
+					<h4>Web Developer</h4>
 				</div>
-				<div class="testimonials-message">
-					
-					<h3></h3>
+				<div class="col-md-4 team-image">
+					<img src="images/tuvshu.jpg" class="team__image tuvshu img-responsive img-circle">
+					<h2>Tuvshuu</h2>
+					<h4>UI/UX Designer</h4>
 				</div>
-				<div class="testimonials-message">
-					
-					<h3></h3>
+				<div class="col-md-4 team-image">
+					<img src="images/adam-doo.png" class="team__image adam-doo img-responsive img-circle">
+					<h2>Adam</h2>
+					<h4>Front-End Developer</h4>
 				</div>
 			</div>
 		</div>
@@ -150,27 +181,48 @@
 
 	<!-- HIRE-US SECTION WILL HAVE A FORM WITH THE FOLLOWING: FULL NAME, EMAIL, SUBJECT, AND MESSAGE, AND THE SEND BUTTON -->
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12" id="hire-us">
-				<h2 class="hire-us-title center">Hire Us</h2>
-				
+		<div class="container">
+			<div class="row" id="hire-us">
+				<h1 class="hire-us-title center">Hire Us</h1>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row col-md-6 col-md-offset-3">
 				<form class="form-horizontal">
-					<div class="form-group">
-					<label for="inputName" class="col-sm-3 control-label">Full Name</label>
-					<div class="col-sm-4">
-						<input type="text" class="form-control" id="inputName" placeholder="Full Name">
-					</div>
-					</div>
-					<div class="form-group">
-					
-					<label for="inputEmail" class="col-sm-3 control-label">Email</label>
-					<div class="col-sm-4">
-						<input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
-					</div>
-					</div>
-
-					<input class="btn btn-default" type="send" value="Send">
+				<div class="form-group">
+					<label for="exampleInputFullName">Full Name</label>
+					<input type="text" class="form-control" id="exampleInputFullName" placeholder="Full Name">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail1">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputSubject">Subject</label>
+					<input type="text" class="form-control" id="exampleInputSubject" placeholder="Subject">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputMessage">Message</label>
+					<input type="text" class="form-control" id="exampleInputMessage" placeholder="Message">
+				</div>
+				<div class="col-md-6 col-md-offset-3">
+					<input class="btn btn-success btn-lg btn-block" type="send" value="Send" class="fa fa-paper-plane">
+				</div>
 				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row" id="footer">
+			<div class="col-md-4 footer-text">
+				<p>© A to Z Studio, 2017</p>
+			</div>
+			<div class="col-md-4 footer-text">
+				<p>We work remotely <i class="fa fa-globe" aria-hidden="true"></i> and<br> We put our <i class="fa fa-heart" aria-hidden="true"></i> in what we do</p>
+			</div>
+			<div class="col-md-4 footer-text">
+				<p><a href="#">Hire Us!</a></p>
 			</div>
 		</div>
 	</div>
