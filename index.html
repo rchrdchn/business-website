@@ -4,12 +4,14 @@
 
 <head>
 	<meta charset="UTF-8">
+
+	<meta name="Portfolio Website" content="Work">
   	<meta name="Richard Chan" content="Projects">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 
-	<!-- Web icon NEED TO ADD LATER -->
-	<link rel="icon" sizes="192x192" href="images/logo.png"> 
+	<!-- Web icon -->
+	<link rel="icon" sizes="192x192" href="images/logo.png">
 
 	<!-- Mobile Chrome theme color -->
 	<meta name="theme-color" content="#FFFB90">
@@ -30,14 +32,35 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 	
 	<!-- Main CSS Stylesheet -->
+	<link href="css/main.css" rel="stylesheet">	
+	<!-- Main CSS Stylesheet -->
 	<link href="css/main.css" rel="stylesheet">
 	
 	<!-- TITLE -->
-	<title>Title</title>
+	<title>AtoZ-Studio</title>
+
+	<!-- NAV -->
+	<link rel="stylesheet" href="priority-nav-core.css">
 
 </head>
 
+<style type="text/css">
+	@font-face {
+    font-family: 'Gloss_And_Bloom';
+    src: url('Gloss_And_Bloom.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+</style>
+
+
+	<!-- Main Header -->
 <body>
+
+	<div class="main-header">
+		<h1>Let’s Create Something People Will Remember</h1>
+	</div>
+
 
 	<!-- TOP PART OF THE SITE - LET'S CALL IT MAIN -->
 	<div class="container-fluid navbar-fixed-top animated fadeInDown" id="main">
@@ -68,7 +91,7 @@
 	<div class="container-fluid">
 		<div class="row animated fadeIn">
 			<!-- <h1 class="top-message">Hi, we are <span>A to Z Studio</span>, a creative web design and development agency.</h1> -->
-			<img src="images/development.jpg" class="top-image img-responsive" alt="">
+				<img src="images/research4.png" class="top-image img-responsive" alt="">
 		</div>
 	</div>
 	
@@ -169,7 +192,7 @@
 					<h4>UI/UX Designer</h4>
 				</div>
 				<div class="col-md-4 team-image animated fadeIn">
-					<img src="images/adam-doo.png" class="team__image adam-doo img-responsive img-circle">
+					<img src="images/adam.jpg" class="team__image adam-doo img-responsive img-circle">
 					<h2>Adam</h2>
 					<h4>Front-End Developer</h4>
 				</div>
@@ -203,6 +226,7 @@
 						<option>New - Don't have a site yet</option>
 					</select>
 				</div>
+
 				<div class="form-group">
 					<label for="exampleInputSubject">Subject</label>
 					<input type="text" class="form-control" id="exampleInputSubject" placeholder="Subject">
@@ -211,8 +235,12 @@
 					<label for="exampleInputMessage">Message</label>
 					<textarea class="form-control" row="10" id="exampleInputMessage" placeholder="Message"></textarea>
 				</div>
+				<!-- button -->
+				<button type="button" class="btn btn-block btn-warning hire-us-button">Send</button>
+
+				<!-- old button:
 				<div class="col-md-6 col-md-offset-3">
-					<button type="submit" class="btn btn-success btn-lg btn-block">Send</button>
+					<button type="submit" class="btn btn-success btn-lg btn-block">Send</button> -->
 				</div>
 				</form>
 			</div>
@@ -232,7 +260,6 @@
 			</div>
 		</div>
 	</div>
-
 
 	<!-- JQUERY -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

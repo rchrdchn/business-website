@@ -2,10 +2,43 @@
 	margin: 0px;
 }
 
+
+/*DaFont*/
+@font-face{
+	font-family: "Gloss_And_Bloom";
+	src: url('../font/Gloss_And_Bloom.ttf');
+}
+@font-face {
+ font-family: "Gloss_And_Bloom";
+ src: url("Gloss_And_Bloom.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: "Gloss_And_Bloom";
+ src: url("Gloss_And_Bloom.ttf") /* TTF file for CSS3 browsers */
+}
+
+.main-header > h1{
+	font-size: 90px;
+	text-align: center;
+	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
+	position: absolute;
+	z-index: 1;
+	color: white;
+	margin-top: 200px;
+	width: 88%;
+	padding-left: 14%;
+	line-height: 150px;
+	letter-spacing: 5px;
+	color: #42B3C0;
+	opacity: .9;
+}
+
+
 body {
-	background-color: #FFFB90;
+	background-color: #D5F8FB;
 	height: 100%;
   	width: 100%;
+  	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
 }
 
 /* TOP SECTION */
@@ -41,7 +74,7 @@ ul .navbar-list {
 
 .nav>li>a {
 	color: #fff !important;
-	padding: 15px;
+	padding: 10px;
 }
 
 .nav>li>a:hover {
@@ -53,7 +86,7 @@ ul .navbar-list {
 }
 
 .top-image {
-
+	opacity: 0.9;
 }
 
 /* TITLES */
@@ -78,9 +111,10 @@ ul .navbar-list {
 
 /* SERVICES SECTION */
 
-#services {
-	
+.services-title {
+	margin-top: 40px;
 }
+
 
 .services-image {
 	display: inline;
@@ -115,23 +149,15 @@ ul .navbar-list {
 
 /*  PROJECTS SECTION */
 
-#projects {
-
-}
-
 .project-image {
 	margin: 30px 0px;
 }
 
-
 /* TESTIMONIALS SECTION */
 
-#testimonials {
-
-}
-
 .testimonials-message > h3 {
-	font-family: "Helvetica", sans-serif;
+	font-family: "Futura", "Helvetica", sans-serif;
+	text-align: center;
 }
 
 .testimonials-message > p {
@@ -140,14 +166,11 @@ ul .navbar-list {
 	padding: 5px;
 	font-family: "Caslon", "Baskerville", serif;
 	font-size: 18px;
+	text-align: center;
 }
 
 
 /* TEAM SECTION */
-
-#team {
-	
-}
 
 .team-image {
 	display: inline;
@@ -170,8 +193,14 @@ ul .navbar-list {
 
 /* HIRE-US SECTION */
 
-#hire-us {
+#hire-us,
+.form-group  {
 	font-family: "Futura", "Helvetica", sans-serif;
+}
+
+.hire-us-button {
+	font-family: "Futura", "Helvetica", sans-serif;
+	font-size: 24px;
 }
 
 /* FOOTER SECTION */
@@ -194,4 +223,112 @@ ul .navbar-list {
 	color: #fff;
 }
 
+/*Media Query*/
 
+@media screen and (max-width: 1300px) {
+    .main-header > h1{
+	font-size: 50px;
+	text-align: center;
+	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
+	position: absolute;
+	z-index: 1;
+	color: white;
+	margin-top: 250px;
+	width: 80%;
+	padding-left: 15%;
+	line-height: 100px;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+    .main-header > h1{
+	font-size: 40px;
+	text-align: center;
+	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
+	position: absolute;
+	z-index: 1;
+	color: white;
+	margin-top: 200px;
+	width: 80%;
+	padding-left: 15%;
+	line-height: 100px;
+	}
+	.navbar-toggle {
+		/* background-color: #fff; */
+		border: #fff;
+	}
+}
+
+@media screen and (max-width: 700px) {
+    .main-header > h1{
+	font-size: 36px;
+	text-align: center;
+	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
+	position: absolute;
+	z-index: 1;
+	color: white;
+	margin-top: 120px;
+	width: 90%;
+	padding-left: 15%;
+	line-height: 100px;
+	}
+	.navbar-toggle {
+		background-color: #fff;
+	}
+}
+
+@media screen and (max-width: 600px) {
+    .main-header > h1{
+	font-size: 30px;
+	text-align: center;
+	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
+	position: absolute;
+	z-index: 1;
+	color: white;
+	margin-top: 110px;
+	width: 90%;
+	padding-left: 15%;
+	line-height: 80px;
+	}
+	.navbar-toggle {
+		background-color: #fff;
+	}
+}
+
+@media screen and (max-width: 500px) {
+    .main-header > h1{
+	font-size: 26px;
+	text-align: center;
+	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
+	position: absolute;
+	z-index: 1;
+	color: white;
+	margin-top: 100px;
+	width: 90%;
+	padding-left: 15%;
+	line-height: 70px;
+	}
+	.navbar-toggle {
+		background-color: #fff;
+	}
+}
+
+@media screen and (max-width: 400px) {
+    .main-header > h1{
+	font-size: 22px;
+	text-align: center;
+	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
+	position: absolute;
+	z-index: 1;
+	color: white;
+	margin-top: 80px;
+	width: 90%;
+	padding-left: 15%;
+	line-height: 50px;
+	}
+
+	.navbar-toggle {
+		background-color: #fff;
+	}
+}
