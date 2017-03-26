@@ -1,0 +1,1 @@
+$ bower install font-awesome-animation

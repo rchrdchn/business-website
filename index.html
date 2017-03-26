@@ -42,7 +42,9 @@
 	<!-- NAV -->
 	<link rel="stylesheet" href="priority-nav-core.css">
 
-</head>
+	<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Montserrat:700" rel="stylesheet">
+
 
 <style type="text/css">
 	@font-face {
@@ -51,16 +53,15 @@
     font-weight: normal;
     font-style: normal;
  }
+
+ <link rel="stylesheet" href="font-awesome-animation.min.css">
 </style>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
 
 
 	<!-- Main Header -->
 <body>
-
-	<div class="main-header">
-		<h1>Let’s Create Something People Will Remember</h1>
-	</div>
-
 
 	<!-- TOP PART OF THE SITE - LET'S CALL IT MAIN -->
 	<div class="container-fluid navbar-fixed-top animated fadeInDown" id="main">
@@ -90,10 +91,14 @@
 
 	<div class="container-fluid">
 		<div class="row animated fadeIn">
-			<!-- <h1 class="top-message">Hi, we are <span>A to Z Studio</span>, a creative web design and development agency.</h1> -->
-				<img src="images/research4.png" class="top-image img-responsive" alt="">
+			<div class="main-header">
+				<h3>We are <span id="az">A to Z Studio</span>, <br>a creative web design and development agency. <br>We put our <i class="fa fa-heart" aria-hidden="true"></i> in what we do.</h3>
+				<h4><span id="create">Let’s create something people will remember!</span></h4>
+			</div>
+			
 		</div>
 	</div>
+
 	
 	<!-- SERVICES SECTION - THIS SHOULD HAVE 3 IMAGES: 1 FOR RESEARCH, 1 FOR DESIGN, 1 FOR DEVELOPMENT + A PIECE OF TEXT EXPLAINING WHAT WE DO BELOW THE IMAGES -->
 	<div class="container-fluid">
@@ -236,7 +241,7 @@
 					<textarea class="form-control" row="10" id="exampleInputMessage" placeholder="Message"></textarea>
 				</div>
 				<!-- button -->
-				<button type="button" class="btn btn-block btn-warning hire-us-button">Send</button>
+				<button type="button" class="btn btn-warning">Send</button>
 
 				<!-- old button:
 				<div class="col-md-6 col-md-offset-3">
@@ -261,12 +266,18 @@
 		</div>
 	</div>
 
+	<!-- NAV -->
+	<script async src="priority-nav.js"></script>
+
 	<!-- JQUERY -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
+	<script>
+		var nav = priorityNav.init();
+	</script>
 </body>
 
 </html>

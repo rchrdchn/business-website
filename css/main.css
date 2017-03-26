@@ -2,37 +2,81 @@
 	margin: 0px;
 }
 
+/*Heart*/
 
-/*DaFont*/
+
+/*DaFont
+
 @font-face{
 	font-family: "Gloss_And_Bloom";
 	src: url('../font/Gloss_And_Bloom.ttf');
 }
 @font-face {
  font-family: "Gloss_And_Bloom";
- src: url("Gloss_And_Bloom.eot") /* EOT file for IE */
+ src: url("Gloss_And_Bloom.eot") 
 }
 @font-face {
  font-family: "Gloss_And_Bloom";
- src: url("Gloss_And_Bloom.ttf") /* TTF file for CSS3 browsers */
+ src: url("Gloss_And_Bloom.ttf") 
 }
+*/
 
-.main-header > h1{
-	font-size: 90px;
+.main-header > h3 {
+	font-size: 48px;
 	text-align: center;
-	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
-	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	z-index: 1;
-	color: white;
-	margin-top: 200px;
-	width: 88%;
-	padding-left: 14%;
-	line-height: 150px;
-	letter-spacing: 5px;
-	color: #42B3C0;
+	margin: 150px 0px 0px 30px;
+/* 	width: 88%;
+	padding-left: 14%; */
+	line-height: 60px;
 	opacity: .9;
 }
 
+.main-header > h4 {
+	font-size: 34px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	z-index: 1;
+	margin-top: 20px;
+	/* width: 80%;
+	padding-left: 14%; */
+	line-height: 60px;
+}
+
+#az {
+	color: #FE80DD;
+	font-size: 80px;
+	font-family: 'Gochi Hand', cursive;
+	letter-spacing: -1px;
+}
+
+.main-header > h5{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	z-index: 1;
+	margin-top: 80px;
+	width: 88%;
+	padding-left: 25%;
+	padding-right: 15%;
+	line-height: 36px;
+	opacity: .9;
+	font-weight:lighter;
+}
+
+#create {
+	font-weight: 900;
+}
+
+.heart-globe {
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Montserrat', sans-serif;
+}
 
 body {
 	background-color: #D5F8FB;
@@ -86,7 +130,7 @@ ul .navbar-list {
 }
 
 .top-image {
-	opacity: 0.9;
+
 }
 
 /* TITLES */
@@ -96,23 +140,28 @@ ul .navbar-list {
 .projects-title,
 .testimonial-title,
 .team-title {
-	display: block;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 60px 350px 30px 350px;
-	color: #fff;
-	padding: 10px 0px;
-	border: 2px solid #222;
-	background-color: #222;
-	letter-spacing: 3px;
-	border-radius: 5px 15px;
-	font-family: "Futura", "Helvetica", sans-serif;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    /* margin: 60px 350px 30px 350px; */
+    margin: 50px 0px 30px 0px;
+    color: #fff;
+    padding: 10px 25px;
+    border: 2px solid #222;
+    background-color: #222;
+    letter-spacing: 3px;
+    border-radius: 5px 15px;
+    font-family: "Futura", "Helvetica", sans-serif;
 }
 
 /* SERVICES SECTION */
 
+#services {
+	
+}
+
 .services-title {
-	margin-top: 40px;
+
 }
 
 
@@ -149,11 +198,20 @@ ul .navbar-list {
 
 /*  PROJECTS SECTION */
 
+#projects {
+
+}
+
 .project-image {
 	margin: 30px 0px;
 }
 
+
 /* TESTIMONIALS SECTION */
+
+#testimonials {
+
+}
 
 .testimonials-message > h3 {
 	font-family: "Futura", "Helvetica", sans-serif;
@@ -171,6 +229,10 @@ ul .navbar-list {
 
 
 /* TEAM SECTION */
+
+#team {
+	
+}
 
 .team-image {
 	display: inline;
@@ -193,15 +255,57 @@ ul .navbar-list {
 
 /* HIRE-US SECTION */
 
-#hire-us,
-.form-group  {
+#hire-us {
 	font-family: "Futura", "Helvetica", sans-serif;
 }
 
-.hire-us-button {
+.form-group {
 	font-family: "Futura", "Helvetica", sans-serif;
-	font-size: 24px;
 }
+
+button {
+	font-family: "Futura", "Helvetica", sans-serif;
+	padding: 8px 26px;
+	width: 20%;
+  	margin-left: 40%;
+}
+
+
+/* button 
+section.flat button {
+  color: #fff;
+  background-color: #176DB9;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+  width: 20%;
+  margin-left: 40%;
+}
+
+section.flat button:hover,
+section.flat button.hover {
+  background-color: #0E4676;
+  text-shadow: -1px 1px #27496d;
+}
+
+section.flat button:active,
+section.flat button.active {
+  background-color: #27496d;
+  text-shadow: -1px 1px #193047;
+}
+
+button {
+  display: inline-block;
+  padding: 8px 26px;
+  font-size: 24px;
+  font-family: "Futura", "Helvetica", sans-serif;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 5%;
+}
+
+button:focus {
+  outline: none
+} */
 
 /* FOOTER SECTION */
 
@@ -226,109 +330,198 @@ ul .navbar-list {
 /*Media Query*/
 
 @media screen and (max-width: 1300px) {
-    .main-header > h1{
-	font-size: 50px;
-	text-align: center;
-	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
-	position: absolute;
-	z-index: 1;
-	color: white;
-	margin-top: 250px;
-	width: 80%;
-	padding-left: 15%;
-	line-height: 100px;
+	.main-header > h3{
+		font-size: 55px;
+		margin-top: 200px;
+		width: 88%;
+		padding-left: 14%;
+		line-height: 60px;
 	}
-
 }
 
-@media screen and (max-width: 900px) {
-    .main-header > h1{
-	font-size: 40px;
-	text-align: center;
-	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
-	position: absolute;
-	z-index: 1;
-	color: white;
-	margin-top: 200px;
-	width: 80%;
-	padding-left: 15%;
-	line-height: 100px;
+@media screen and (max-width: 1300px) {
+	#az {	
+	font-size: 70px;
 	}
-	.navbar-toggle {
-		/* background-color: #fff; */
-		border: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+	.main-header > h3{
+		font-size: 45px;
+		margin-top: 200px;
+		width: 88%;
+		padding-left: 14%;
+		line-height: 60px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	#az {	
+	font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.main-header > h5{
+		font-size: 18px;
+		margin-top: 40px;
+		width: 88%;
+		padding-left: 25%;
+		padding-right: 15%;
+		line-height: 26px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.main-header > h3{
+		font-size: 40px;
+		margin-top: 200px;
+		width: 88%;
+		padding-left: 14%;
+		line-height: 50px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#az {	
+	font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.main-header > h5{
+		font-size: 18px;
+		margin-top: 40px;
+		width: 88%;
+		padding-left: 25%;
+		padding-right: 15%;
+		line-height: 26px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.main-header > h3{
+		font-size: 36px;
+		margin-top: 200px;
+		width: 88%;
+		padding-left: 14%;
+		line-height: 40px;
+	}
+}	
+
+@media screen and (max-width: 800px) {
+	#az {	
+	font-size: 45px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.main-header > h5{
+		font-size: 16px;
+		margin-top: 30px;
+		width: 88%;
+		padding-left: 25%;
+		padding-right: 15%;
+		line-height: 22px;
 	}
 }
 
 @media screen and (max-width: 700px) {
-    .main-header > h1{
-	font-size: 36px;
-	text-align: center;
-	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
-	position: absolute;
-	z-index: 1;
-	color: white;
-	margin-top: 120px;
-	width: 90%;
-	padding-left: 15%;
-	line-height: 100px;
+	.main-header > h3{
+		font-size: 30px;
+		margin-top: 160px;
+		width: 88%;
+		padding-left: 14%;
+		line-height: 40px;
 	}
-	.navbar-toggle {
-		background-color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+	#az {	
+	font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.main-header > h5{
+		font-size: 12px;
+		margin-top: 30px;
+		width: 88%;
+		padding-left: 15%;
+		padding-right: 5%;
+		line-height: 22px;
 	}
 }
 
 @media screen and (max-width: 600px) {
-    .main-header > h1{
-	font-size: 30px;
-	text-align: center;
-	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
-	position: absolute;
-	z-index: 1;
-	color: white;
-	margin-top: 110px;
-	width: 90%;
-	padding-left: 15%;
-	line-height: 80px;
+	.main-header > h3{
+		font-size: 25px;
+		margin-top: 140px;
+		width: 88%;
+		padding-left: 14%;
+		line-height: 30px;
 	}
-	.navbar-toggle {
-		background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+	#az {	
+	font-size: 30px;
+	}
+}
+
+	@media screen and (max-width: 500px) {
+	.main-header > h3{
+		font-size: 20px;
+		margin-top: 120px;
+		width: 88%;
+		padding-left: 14%;
+		line-height: 30px;
 	}
 }
 
 @media screen and (max-width: 500px) {
-    .main-header > h1{
-	font-size: 26px;
-	text-align: center;
-	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
-	position: absolute;
-	z-index: 1;
-	color: white;
-	margin-top: 100px;
-	width: 90%;
-	padding-left: 15%;
-	line-height: 70px;
-	}
-	.navbar-toggle {
-		background-color: #fff;
+	#az {	
+	font-size: 25px;
 	}
 }
 
-@media screen and (max-width: 400px) {
-    .main-header > h1{
-	font-size: 22px;
-	text-align: center;
-	font-family: "Gloss_And_Bloom","Futura", "Helvetica", sans-serif;
-	position: absolute;
-	z-index: 1;
-	color: white;
-	margin-top: 80px;
-	width: 90%;
-	padding-left: 15%;
-	line-height: 50px;
-	}
+/*NAV BAR Media Query*/
 
-	.navbar-toggle {
-		background-color: #fff;
+@media screen and (max-width: 700px) {
+	.navbar-toggle { 
+		background-color: #fff; 
+	}
+} 
+	
+@media screen and (max-width: 700px) {		
+	.navbar-toggle 
+	.icon-bar+.icon-bar, 
+	.navbar-toggle .icon-bar { 
+		background-color: #000; 
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
